@@ -1,7 +1,7 @@
 # edmiralu
 Project for HackDavis 2020 :)
 
-## UI Link
+## Wireframe Link
 https://xd.adobe.com/view/e9cdb6a6-5fb8-4a03-7e52-4cdfb5b5be1c-9ffc/
 
 ## Style Guide
