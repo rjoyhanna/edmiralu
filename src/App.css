@@ -1,10 +1,17 @@
+/* green: #0FC47A
+yellow: #FFDF4C
+red: #FF4447
+blue: #4978FF
+Title: Font: Monserrat (Black) Size: 40 Color: #0FC47A or #FFFFFF */
+
 body, html {
   padding: 0px;
   margin: 0px;
+  color: #FFF;
 }
 
 header {
-  background-color: orange;
+  background-color: #0FC47A;
   display: flex;
   padding: 5px;
 }
