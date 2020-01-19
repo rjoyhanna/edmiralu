@@ -20,4 +20,4 @@ Color: #0FC47A or #FFFFFF
 
 ## Membership typeform link: https://eddyzhu.typeform.com/to/lqp0HJ
 
-## Temporary deployment url: https://stoked-cirrus-265600.appspot.com
+## Temporary deployment url: https://edmiralu-265611.appspot.com/
