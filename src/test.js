@@ -48,7 +48,6 @@ export default class App extends Component {
     const header_color = this.state.menu === "closed" ? 'green' : 'white';
     return (
     <Router>
-        <div>
         <header className={`${header_color}`}>
           {this.state.menu === "closed" ?
             <img className="menu-icon" alt="open menu button" src="images/open_menu_white.png" onClick={this.OpenMenu}/>
@@ -57,21 +56,20 @@ export default class App extends Component {
           }
           <h2 className="header_title">missing link</h2>
         </header>
-          <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <ul className="navbar-nav mr-auto">
-            <li><Link to={'/'} className="nav-link"> Home </Link></li>
-            <li><Link to={'/contact'} className="nav-link">Contact</Link></li>
-            <li><Link to={'/about'} className="nav-link">About</Link></li>
-          </ul>
-          </nav>
-          <hr />
           <Switch>
               <Route exact path='/' component={Home} />
               <Route path='/contact' component={Contact} />
               <Route path='/about' component={About} />
           </Switch>
-        </div>
       </Router>
     );
   }
 }
+
+// <nav className="navbar navbar-expand-lg navbar-light bg-light">
+// <ul className="navbar-nav mr-auto">
+//   <li><Link to={'/'} className="nav-link"> Home </Link></li>
+//   <li><Link to={'/contact'} className="nav-link">Contact</Link></li>
+//   <li><Link to={'/about'} className="nav-link">About</Link></li>
+// </ul>
+// </nav>
