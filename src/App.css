@@ -70,8 +70,17 @@ p, button {
   text-align: center;
   align-items: center;
   justify-content: center;
-  min-height: 100%;
+  height: 100vh;
   flex-grow: 1;
+}
+
+.square_header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-width: 100%;
 }
 
 .flex_row {
@@ -91,23 +100,36 @@ p, button {
   color: #FFF;
 }
 
+.line {
+  height: 2px;
+  width: 100%;
+  flex-grow: 1;
+  background-color: #FFF;
+}
+
 .black_text {
   color: #000;
+}
+
+.nowrap {
+  white-space: nowrap;
 }
 
 .bold {
   font-weight: 700;
 }
 
+.square {
+  height: 100px;
+  min-width: 100px;
+  background-color: #FFF;
+}
+
 .red_button {
   background-color: #FF4447;
 }
 
-Switch {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+main {
 }
 
 button {

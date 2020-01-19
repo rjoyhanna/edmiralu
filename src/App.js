@@ -84,6 +84,7 @@ export default class App extends Component {
             </div>
           </div>
         </nav>
+        <main>
           <Switch>
               <Route exact path='/' component={Home} />
               <Route path='/letsgo' component={LetsGo} />
@@ -93,6 +94,7 @@ export default class App extends Component {
               <Route path='/dashboard' component={Dashboard} />
               <Route path='/private-policy' component={PrivatePolicy} />
           </Switch>
+        </main>
       </Router>
     );
   }
