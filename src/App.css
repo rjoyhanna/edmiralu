@@ -20,6 +20,7 @@ body, html, App, Router, Switch, BrowserRouter {
 header {
   display: flex;
   padding: 5px;
+  z-index: 100;
 }
 
 .title-group {
@@ -66,8 +67,21 @@ p, button {
   flex-grow: 1;
 }
 
+.flex_row {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dropdown {
+  height: 100%;
+}
+
 .green_text {
   color: #0FC47A;
+}
+
+.white_text {
+  color: #FFF;
 }
 
 .black_text {
@@ -75,7 +89,7 @@ p, button {
 }
 
 .bold {
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .red_button {
@@ -100,4 +114,21 @@ button {
   border-radius: 20px;
   box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2), 0 4px 6px 0 rgba(0,0,0,0.19);
   width: 180px;
+}
+
+nav {
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+  background-color: #0FC47A;
+  top: -1000px;
+  transition: top .2s;
+}
+
+li {
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
 }

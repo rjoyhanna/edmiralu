@@ -3,6 +3,9 @@
 import React, { Component } from 'react';
 
 class LetsGo extends Component {
+  componentDidMount () {
+    this.setState({menu: "closed"})
+  }
   render() {
     return (
         <div>

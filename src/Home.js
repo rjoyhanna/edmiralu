@@ -10,7 +10,7 @@ class Home extends Component {
         <div className="flex_container">
           <p className="black_text">it's time to find your</p>
           <p className="green_text bold">missing link</p>
-          <Link to={'/letsgo'} className="nav-link"><button className="red_button">let's go!</button></Link>
+          <Link to={{pathname: '/letsgo', state: {menu: "closed"}}} className="nav-link"><button className="red_button">let's go!</button></Link>
         </div>
     );
   }
