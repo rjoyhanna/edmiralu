@@ -2,7 +2,11 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
-import Contact from './Contact';
+import LetsGo from './LetsGo';
+import Login from './Login';
+import Support from './Support';
+import Dashboard from './Dashboard';
+import PrivatePolicy from './PrivatePolicy';
 import './App.css';
 
 export default class App extends Component {
@@ -58,8 +62,12 @@ export default class App extends Component {
         </header>
           <Switch>
               <Route exact path='/' component={Home} />
-              <Route path='/contact' component={Contact} />
+              <Route path='/letsgo' component={LetsGo} />
               <Route path='/about' component={About} />
+              <Route path='/login' component={Login} />
+              <Route path='/support' component={Support} />
+              <Route path='/dashboard' component={Dashboard} />
+              <Route path='/private-policy' component={PrivatePolicy} />
           </Switch>
       </Router>
     );

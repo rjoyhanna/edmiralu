@@ -2,11 +2,11 @@
 
 import React, { Component } from 'react';
 
-export default class About extends Component {
+export default class PrivatePolicy extends Component {
   render() {
     return (
         <div>
-          <h2>About</h2>
+          <h2>Private Policy</h2>
         </div>
     );
   }
