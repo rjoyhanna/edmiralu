@@ -10,6 +10,11 @@ Title: Font: Monserrat (Black) Size: 40 Color: #0FC47A or #FFFFFF */
     flex-direction: column;
 }
 
+html {
+  width:100vw;
+    overflow-x:hidden;
+}
+
 body, html, App, Router, Switch, BrowserRouter {
   padding: 0px;
   margin: 0px;
@@ -50,11 +55,13 @@ p, button {
 .green {
   background-color: #0FC47A;
   color: #FFF;
+  transition: background-color .4s;
 }
 
 .white {
   background-color: #FFF;
   color: #0FC47A;
+  transition: background-color .4s;
 }
 
 .flex_container {
@@ -131,4 +138,8 @@ li {
 
 .nav-link {
   text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #FFDF4C;
 }
