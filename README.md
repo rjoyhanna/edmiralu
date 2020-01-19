@@ -1,9 +1,20 @@
 # edmiralu
-Project for HackDavis 2020
+Project for HackDavis 2020 :)
 
-## Getting started
+## Wireframe Link
+https://xd.adobe.com/view/e9cdb6a6-5fb8-4a03-7e52-4cdfb5b5be1c-9ffc/
 
-1. Download npm
-2. Clone the repo to your local machine using ```git clone https://github.com/rjoyhanna/edmiralu.git```
-3. cd into the app folder
-4. Start the development server using ```npm start```
+## Style Guide
+
+Font: Monserrat
+Color Palette: 
+- green: #0FC47A
+- yellow: #FFDF4C
+- red: #FF4447
+- blue: #4978FF
+
+Title:
+Font: Monserrat (Black)
+Size: 40
+Color: #0FC47A or #FFFFFF
+
