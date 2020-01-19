@@ -45,16 +45,17 @@ export default class App extends Component {
   }
 
   render() {
+    const header_color = this.state.menu === "closed" ? 'green' : 'white';
     return (
     <Router>
         <div>
-        <header>
+        <header className={`${header_color}`}>
           {this.state.menu === "closed" ?
             <img className="menu-icon" alt="open menu button" src="images/open_menu_white.png" onClick={this.OpenMenu}/>
             :
             <img className="menu-icon" alt="close menu button" src="images/close_menu_green.png" onClick={this.CloseMenu}/>
           }
-          <h2>missing link</h2>
+          <h2 className="header_title">missing link</h2>
         </header>
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <ul className="navbar-nav mr-auto">

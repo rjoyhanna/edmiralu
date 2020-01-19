@@ -7,11 +7,10 @@ Title: Font: Monserrat (Black) Size: 40 Color: #0FC47A or #FFFFFF */
 body, html {
   padding: 0px;
   margin: 0px;
-  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header {
-  background-color: #0FC47A;
   display: flex;
   padding: 5px;
 }
@@ -22,11 +21,26 @@ header {
   justify-content: center;
 }
 
+.header_title {
+  flex-grow: 1;
+  text-align: center;
+}
+
 .menu-icon {
   width: 30px;
   height: 30px;
 }
 
-h1 {
+h2 {
   margin: 0px;
+}
+
+.green {
+  background-color: #0FC47A;
+  color: #FFF;
+}
+
+.white {
+  background-color: #FFF;
+  color: #0FC47A;
 }
