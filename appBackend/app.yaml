@@ -1,4 +1,4 @@
 runtime: nodejs12
 
 env_variables:
-    PORT: 80
+    PORT: 8080
